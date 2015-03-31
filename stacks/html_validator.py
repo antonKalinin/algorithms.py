@@ -52,8 +52,8 @@ def validate_html(html_string):
             current_tag += char
 
         char_index += 1
-        
-    if valid_html:    
+
+    if valid_html:
         valid_html = tags_stack.is_empty()
 
     return valid_html

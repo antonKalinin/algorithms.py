@@ -39,5 +39,3 @@ if __name__ == "__main__":
 
     print('Fibonacci iterative: ', fibonacci_iterative(100))
     cProfile.run('fibonacci_iterative(100)')
-
-
